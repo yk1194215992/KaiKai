@@ -1,0 +1,794 @@
+2019-03-17 08:48:19 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/fcf9a388/datatables/dataTables.bootstrap4.min.css". in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/fcf9a388...', Array)
+#1 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2019-03-17 08:48:19 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => 'ea2780d61c44cc4cb5e4bc3a59c7a21d9d774a0f2110c5c8db138001e229099ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ZtC9OVdMaBVO_z84VdG6jFmU-N_9kUSi\";}'
+    'advanced-backend' => 'h9l1f4puvbgdoul8avbdlmolp6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;E:\\SVN\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;E:\\Git\\cmd;E:\\OpenVPN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\YK\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\YK\\AppData\\Roaming\\Composer\\vendor\\bin;E:\\Microsoft VS Code\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2412'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'REMOTE_PORT' => '49584'
+    'SCRIPT_FILENAME' => 'E:/KKK/jiqiren/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.myyii2.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=ea2780d61c44cc4cb5e4bc3a59c7a21d9d774a0f2110c5c8db138001e229099ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZtC9OVdMaBVO_z84VdG6jFmU-N_9kUSi%22%3B%7D; advanced-backend=h9l1f4puvbgdoul8avbdlmolp6'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.myyii2.com/site/login'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.myyii2.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1552812499.2003
+    'REQUEST_TIME' => 1552812499
+]
+2019-03-17 08:48:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/fcf9a388/datatables/dataTables.bootstrap4.min.css". in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/fcf9a388...', Array)
+#1 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2019-03-17 08:48:23 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => 'ea2780d61c44cc4cb5e4bc3a59c7a21d9d774a0f2110c5c8db138001e229099ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ZtC9OVdMaBVO_z84VdG6jFmU-N_9kUSi\";}'
+    'advanced-backend' => 'h9l1f4puvbgdoul8avbdlmolp6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;E:\\SVN\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;E:\\Git\\cmd;E:\\OpenVPN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\YK\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\YK\\AppData\\Roaming\\Composer\\vendor\\bin;E:\\Microsoft VS Code\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2388'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'REMOTE_PORT' => '49585'
+    'SCRIPT_FILENAME' => 'E:/KKK/jiqiren/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.myyii2.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=ea2780d61c44cc4cb5e4bc3a59c7a21d9d774a0f2110c5c8db138001e229099ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZtC9OVdMaBVO_z84VdG6jFmU-N_9kUSi%22%3B%7D; advanced-backend=h9l1f4puvbgdoul8avbdlmolp6'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.myyii2.com/site/login'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.myyii2.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1552812503.2302
+    'REQUEST_TIME' => 1552812503
+]
+2019-03-17 08:48:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/fcf9a388/datatables/dataTables.bootstrap4.min.css". in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/fcf9a388...', Array)
+#1 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2019-03-17 08:48:29 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5imeglt086qkjk5oafio9sm8ht'
+    '_csrf-backend' => '2a926f8639bac6704c2b5906d03e3c1b75866a97846c4a42d29f67931ce1db99a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Y79u4M6SjWReN5iiqPRruZ3Dw4Bj8pxs\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;E:\\SVN\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;E:\\Git\\cmd;E:\\OpenVPN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\YK\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\YK\\AppData\\Roaming\\Composer\\vendor\\bin;E:\\Microsoft VS Code\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2388'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'REMOTE_PORT' => '49655'
+    'SCRIPT_FILENAME' => 'E:/KKK/jiqiren/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.myyii2.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-backend=5imeglt086qkjk5oafio9sm8ht; _csrf-backend=2a926f8639bac6704c2b5906d03e3c1b75866a97846c4a42d29f67931ce1db99a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Y79u4M6SjWReN5iiqPRruZ3Dw4Bj8pxs%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.myyii2.com/site/login'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.myyii2.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1552812509.3787
+    'REQUEST_TIME' => 1552812509
+]
+2019-03-17 08:48:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "img/logo.png". in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('img/logo.png', Array)
+#1 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2019-03-17 08:48:29 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5imeglt086qkjk5oafio9sm8ht'
+    '_csrf-backend' => '2a926f8639bac6704c2b5906d03e3c1b75866a97846c4a42d29f67931ce1db99a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"Y79u4M6SjWReN5iiqPRruZ3Dw4Bj8pxs\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;E:\\SVN\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;E:\\Git\\cmd;E:\\OpenVPN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\YK\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\YK\\AppData\\Roaming\\Composer\\vendor\\bin;E:\\Microsoft VS Code\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2388'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/img/logo.png'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/img/logo.png'
+    'REMOTE_PORT' => '49649'
+    'SCRIPT_FILENAME' => 'E:/KKK/jiqiren/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.myyii2.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-backend=5imeglt086qkjk5oafio9sm8ht; _csrf-backend=2a926f8639bac6704c2b5906d03e3c1b75866a97846c4a42d29f67931ce1db99a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22Y79u4M6SjWReN5iiqPRruZ3Dw4Bj8pxs%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.myyii2.com/site/login'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.myyii2.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1552812509.5496
+    'REQUEST_TIME' => 1552812509
+]
+2019-03-17 08:48:41 [127.0.0.1][1][v1ol0i37gboslcfb6r21iktvkl][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/fcf9a388/datatables/dataTables.bootstrap4.min.css". in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/fcf9a388...', Array)
+#1 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2019-03-17 08:48:41 [127.0.0.1][1][v1ol0i37gboslcfb6r21iktvkl][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'v1ol0i37gboslcfb6r21iktvkl'
+    '_identity-backend' => '663e328100ad0877f2e3a560cc212071e8dd49a7c38a872f8e2d920ff418e38ba:2:{i:0;s:17:\"_identity-backend\";i:1;s:18:\"[\"1\",null,2592000]\";}'
+    '_csrf-backend' => '0d5e042c4440b8b4611b23103312933bb51999ea829d1f1935ab5b4aaa0c34dfa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"lF7y1yZ11Olh6OACyiE_GTISOLbLAKRp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;E:\\SVN\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;E:\\Git\\cmd;E:\\OpenVPN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\YK\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\YK\\AppData\\Roaming\\Composer\\vendor\\bin;E:\\Microsoft VS Code\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2364'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'REMOTE_PORT' => '49681'
+    'SCRIPT_FILENAME' => 'E:/KKK/jiqiren/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.myyii2.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-backend=v1ol0i37gboslcfb6r21iktvkl; _identity-backend=663e328100ad0877f2e3a560cc212071e8dd49a7c38a872f8e2d920ff418e38ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A18%3A%22%5B%221%22%2Cnull%2C2592000%5D%22%3B%7D; _csrf-backend=0d5e042c4440b8b4611b23103312933bb51999ea829d1f1935ab5b4aaa0c34dfa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22lF7y1yZ11Olh6OACyiE_GTISOLbLAKRp%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.myyii2.com/'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.myyii2.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1552812521.1281
+    'REQUEST_TIME' => 1552812521
+]
+2019-03-17 08:48:41 [127.0.0.1][1][v1ol0i37gboslcfb6r21iktvkl][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "img/logo.png". in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('img/logo.png', Array)
+#1 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2019-03-17 08:48:41 [127.0.0.1][1][v1ol0i37gboslcfb6r21iktvkl][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'v1ol0i37gboslcfb6r21iktvkl'
+    '_identity-backend' => '663e328100ad0877f2e3a560cc212071e8dd49a7c38a872f8e2d920ff418e38ba:2:{i:0;s:17:\"_identity-backend\";i:1;s:18:\"[\"1\",null,2592000]\";}'
+    '_csrf-backend' => '0d5e042c4440b8b4611b23103312933bb51999ea829d1f1935ab5b4aaa0c34dfa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"lF7y1yZ11Olh6OACyiE_GTISOLbLAKRp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;E:\\SVN\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;E:\\Git\\cmd;E:\\OpenVPN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\YK\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\YK\\AppData\\Roaming\\Composer\\vendor\\bin;E:\\Microsoft VS Code\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2184'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/img/logo.png'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/img/logo.png'
+    'REMOTE_PORT' => '49685'
+    'SCRIPT_FILENAME' => 'E:/KKK/jiqiren/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.myyii2.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-backend=v1ol0i37gboslcfb6r21iktvkl; _identity-backend=663e328100ad0877f2e3a560cc212071e8dd49a7c38a872f8e2d920ff418e38ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A18%3A%22%5B%221%22%2Cnull%2C2592000%5D%22%3B%7D; _csrf-backend=0d5e042c4440b8b4611b23103312933bb51999ea829d1f1935ab5b4aaa0c34dfa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22lF7y1yZ11Olh6OACyiE_GTISOLbLAKRp%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.myyii2.com/'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.myyii2.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1552812521.158
+    'REQUEST_TIME' => 1552812521
+]
+2019-03-17 08:49:18 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/fcf9a388/datatables/dataTables.bootstrap4.min.css". in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/fcf9a388...', Array)
+#1 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2019-03-17 08:49:18 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => 'ea2780d61c44cc4cb5e4bc3a59c7a21d9d774a0f2110c5c8db138001e229099ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ZtC9OVdMaBVO_z84VdG6jFmU-N_9kUSi\";}'
+    'advanced-backend' => 'h9l1f4puvbgdoul8avbdlmolp6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;E:\\SVN\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;E:\\Git\\cmd;E:\\OpenVPN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\YK\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\YK\\AppData\\Roaming\\Composer\\vendor\\bin;E:\\Microsoft VS Code\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2412'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'REMOTE_PORT' => '49747'
+    'SCRIPT_FILENAME' => 'E:/KKK/jiqiren/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.myyii2.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=ea2780d61c44cc4cb5e4bc3a59c7a21d9d774a0f2110c5c8db138001e229099ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZtC9OVdMaBVO_z84VdG6jFmU-N_9kUSi%22%3B%7D; advanced-backend=h9l1f4puvbgdoul8avbdlmolp6'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.myyii2.com/site/login'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.myyii2.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1552812558.7527
+    'REQUEST_TIME' => 1552812558
+]
+2019-03-17 08:49:19 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/fcf9a388/datatables/dataTables.bootstrap4.min.css". in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/fcf9a388...', Array)
+#1 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2019-03-17 08:49:19 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => 'ea2780d61c44cc4cb5e4bc3a59c7a21d9d774a0f2110c5c8db138001e229099ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"ZtC9OVdMaBVO_z84VdG6jFmU-N_9kUSi\";}'
+    'advanced-backend' => 'h9l1f4puvbgdoul8avbdlmolp6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;E:\\SVN\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;E:\\Git\\cmd;E:\\OpenVPN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\YK\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\YK\\AppData\\Roaming\\Composer\\vendor\\bin;E:\\Microsoft VS Code\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2412'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'REMOTE_PORT' => '49748'
+    'SCRIPT_FILENAME' => 'E:/KKK/jiqiren/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.myyii2.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=ea2780d61c44cc4cb5e4bc3a59c7a21d9d774a0f2110c5c8db138001e229099ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZtC9OVdMaBVO_z84VdG6jFmU-N_9kUSi%22%3B%7D; advanced-backend=h9l1f4puvbgdoul8avbdlmolp6'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.myyii2.com/site/login'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.myyii2.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1552812559.7666
+    'REQUEST_TIME' => 1552812559
+]
+2019-03-17 08:49:22 [127.0.0.1][1][v1ol0i37gboslcfb6r21iktvkl][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/fcf9a388/datatables/dataTables.bootstrap4.min.css". in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/fcf9a388...', Array)
+#1 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2019-03-17 08:49:22 [127.0.0.1][1][v1ol0i37gboslcfb6r21iktvkl][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'v1ol0i37gboslcfb6r21iktvkl'
+    '_identity-backend' => '663e328100ad0877f2e3a560cc212071e8dd49a7c38a872f8e2d920ff418e38ba:2:{i:0;s:17:\"_identity-backend\";i:1;s:18:\"[\"1\",null,2592000]\";}'
+    '_csrf-backend' => '0d5e042c4440b8b4611b23103312933bb51999ea829d1f1935ab5b4aaa0c34dfa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"lF7y1yZ11Olh6OACyiE_GTISOLbLAKRp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;E:\\SVN\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;E:\\Git\\cmd;E:\\OpenVPN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\YK\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\YK\\AppData\\Roaming\\Composer\\vendor\\bin;E:\\Microsoft VS Code\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2184'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'REMOTE_PORT' => '49755'
+    'SCRIPT_FILENAME' => 'E:/KKK/jiqiren/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.myyii2.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-backend=v1ol0i37gboslcfb6r21iktvkl; _identity-backend=663e328100ad0877f2e3a560cc212071e8dd49a7c38a872f8e2d920ff418e38ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A18%3A%22%5B%221%22%2Cnull%2C2592000%5D%22%3B%7D; _csrf-backend=0d5e042c4440b8b4611b23103312933bb51999ea829d1f1935ab5b4aaa0c34dfa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22lF7y1yZ11Olh6OACyiE_GTISOLbLAKRp%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.myyii2.com/'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.myyii2.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1552812562.1447
+    'REQUEST_TIME' => 1552812562
+]
+2019-03-17 08:49:23 [127.0.0.1][1][v1ol0i37gboslcfb6r21iktvkl][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/fcf9a388/datatables/dataTables.bootstrap4.min.css". in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/fcf9a388...', Array)
+#1 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2019-03-17 08:49:23 [127.0.0.1][1][v1ol0i37gboslcfb6r21iktvkl][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'v1ol0i37gboslcfb6r21iktvkl'
+    '_identity-backend' => '663e328100ad0877f2e3a560cc212071e8dd49a7c38a872f8e2d920ff418e38ba:2:{i:0;s:17:\"_identity-backend\";i:1;s:18:\"[\"1\",null,2592000]\";}'
+    '_csrf-backend' => '0d5e042c4440b8b4611b23103312933bb51999ea829d1f1935ab5b4aaa0c34dfa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"lF7y1yZ11Olh6OACyiE_GTISOLbLAKRp\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '1'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;E:\\SVN\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;E:\\Git\\cmd;E:\\OpenVPN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\YK\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\YK\\AppData\\Roaming\\Composer\\vendor\\bin;E:\\Microsoft VS Code\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2412'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'REMOTE_PORT' => '49755'
+    'SCRIPT_FILENAME' => 'E:/KKK/jiqiren/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.myyii2.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => 'advanced-backend=v1ol0i37gboslcfb6r21iktvkl; _identity-backend=663e328100ad0877f2e3a560cc212071e8dd49a7c38a872f8e2d920ff418e38ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A18%3A%22%5B%221%22%2Cnull%2C2592000%5D%22%3B%7D; _csrf-backend=0d5e042c4440b8b4611b23103312933bb51999ea829d1f1935ab5b4aaa0c34dfa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22lF7y1yZ11Olh6OACyiE_GTISOLbLAKRp%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.myyii2.com/'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.myyii2.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1552812563.0116
+    'REQUEST_TIME' => 1552812563
+]
+2019-03-17 08:49:25 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "assets/fcf9a388/datatables/dataTables.bootstrap4.min.css". in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('assets/fcf9a388...', Array)
+#1 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: 页面未找到。 in E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\KKK\jiqiren\backend\common\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\KKK\jiqiren\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2019-03-17 08:49:25 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-backend' => '0d5e042c4440b8b4611b23103312933bb51999ea829d1f1935ab5b4aaa0c34dfa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"lF7y1yZ11Olh6OACyiE_GTISOLbLAKRp\";}'
+    'advanced-backend' => 'hc6sjmq417val8dk1n6lgar35u'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;E:\\SVN\\bin;E:\\phpStudy\\PHPTutorial\\php\\php-7.1.13-nts;E:\\Git\\cmd;E:\\OpenVPN\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\YK\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\YK\\AppData\\Roaming\\Composer\\vendor\\bin;E:\\Microsoft VS Code\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/PHPTutorial/php/php-7.1.13-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2184'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/assets/fcf9a388/datatables/dataTables.bootstrap4.min.css'
+    'REMOTE_PORT' => '49756'
+    'SCRIPT_FILENAME' => 'E:/KKK/jiqiren/backend/web/index.php'
+    'SERVER_ADMIN' => 'admin@php.cn'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/KKK/jiqiren/backend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.myyii2.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-backend=0d5e042c4440b8b4611b23103312933bb51999ea829d1f1935ab5b4aaa0c34dfa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22lF7y1yZ11Olh6OACyiE_GTISOLbLAKRp%22%3B%7D; advanced-backend=hc6sjmq417val8dk1n6lgar35u'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.myyii2.com/site/login'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.myyii2.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1552812565.3372
+    'REQUEST_TIME' => 1552812565
+]
